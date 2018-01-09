@@ -7,8 +7,7 @@ V1.0 due to the fact it's not perfect and hdmi support is missing.
 First of all: HDA-Codec hacking is a pain!
 
 <br />
-
-![release-img](pix/preview.png)
+![release-img](pix/preview.jpg)
 
 <br /><br />
 
@@ -52,8 +51,7 @@ This could be happen i.e. via bootloader, custom dsdt or an enabler kext.<br />
 
 2. The AppleHDA.kext<br />
 For ML i use a patched kext.<br />
-For YO and EC a dummy kext is my first choice.<br />
-AppleHDA binary is patched on the fly via bootloader (Find: 8B19D411 / Replace: 6950F114).<br />
+For YO and EC a dummy kext is my first choice. The codec-id is injected on the fly to AppleHDA binary via bootloader (Find: 8B19D411 / Replace: 6950F114).<br />
 
 - Patch to use the right codec-id.<br />
 - Insert pin-configuration.<br />
