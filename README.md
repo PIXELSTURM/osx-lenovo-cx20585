@@ -5,8 +5,8 @@ V1.0 due to the fact it's not perfect and hdmi support is missing.
 
 
 First of all: HDA-Codec hacking is a pain!
-
 <br />
+
 ![release-img](pix/preview.jpg)
 
 <br /><br />
