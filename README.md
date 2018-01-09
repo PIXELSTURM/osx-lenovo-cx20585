@@ -9,6 +9,7 @@ First of all: HDA-Codec hacking is a pain!
 <br />
 ![release-img](pix/preview.png)
 
+![release-img](pix/preview.png)
 <br /><br />
 
 ## History
